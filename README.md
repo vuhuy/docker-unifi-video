@@ -1,5 +1,10 @@
 # Docker image for UniFi Video 
 
+> [!WARNING]
+> **This repository has been archived and is no longer maintained.**
+>
+> No new updates, fixes, or support will be provided in this repository. Development continues in the actively maintained fork: **[conmilo/unifi-video-controller](https://github.com/conmilo/unifi-video-controller)**.
+
 UniFi Video is end-of-life and not supported anymore by Ubiquiti. But if you really have to you still can run the latest UniFi Video v3.10.13 using Docker on AMD64-based systems. This image contains a patch for log4j vulnerability [CVE-2021-44228](https://www.cvedetails.com/cve/CVE-2021-44228/). Consider using a VPN if you want to access the NVR remotely. Do not expose UniFi Video directly to the internet.
 
 This is a fork of [pducharme/UniFi-Video-Controller](https://github.com/pducharme/UniFi-Video-Controller).
